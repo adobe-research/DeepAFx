@@ -1,0 +1,5 @@
+bind-addr: 127.0.0.1:8877
+auth: password
+cert: false
+password: stuff
+hashed-password: 77909277a1ffc4b06a39d95f00d94b495a5c099351155c60d552c4dc8822cf9a

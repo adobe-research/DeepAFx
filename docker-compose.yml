@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  dev:
+    build: .
+    ports:
+      - 8887:8887
+      - 8888:8888
+      - 22700:22700
+      - 8896:8896
+      - 6006:6006
+    tty: true
+    privileged: true
+    volumes:
+      - $PWD:/home/code-base/runtime
+      - $DEEPAFX_DATA/:/home/code-base/scratch_space
+
+volumes:
+    data:

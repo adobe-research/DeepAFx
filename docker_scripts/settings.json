@@ -1,0 +1,7 @@
+{
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "python.dataScience.alwaysTrustNotebooks": true,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "workbench.colorTheme": "Default Dark+"
+}

@@ -1,0 +1,46 @@
+DeepAFx: Differentiable Signal Processing with Black-Box Audio Effects
+=========================
+
+
+The enclosed **DeepAFx** files are a collection of trained Tensorflow (Keras) models that can be used together with LV2 audio plugins to perform three different intelligent audio processing tasks including tube amplifier distortion emulation, automatic non-speech sound removal, and automatic music mastering. For technical details of the work, please see our code and the following paper:
+
+
+"Differentiable Signal Processing with Black-Box Audio Effects." Marco A. Martínez Ramírez, Oliver Wang, Paris Smaragdis, and Nicholas J. Bryan. IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2021.
+
+When our code and/or models are used for academic research, we would highly appreciate it if scientific publications of works partly based on this work cite the paper above.
+
+## Format
+Enclosed are the following files:
+
+
+```
+README
+LICENSE
+distortion
+    full_model_inception
+        full_model_inception.h5
+        full_model_inception.params.npy
+    full_model_mobilenet
+        full_model_mobilenet.h5
+        full_model_mobilenet.params.npy
+nonspeech
+    full_model_inception
+        full_model_inception.h5
+        full_model_inception.params.npy
+    full_model_mobilenet
+        full_model_mobilenet.h5
+        full_model_mobilenet.params.npy
+mastering
+    full_model_inception
+        full_model_inception.h5
+        full_model_inception.params.npy
+    full_model_mobilenet
+        full_model_mobilenet.h5
+        full_model_mobilenet.params.npy
+```
+
+All .h5 files are TF Keras models saved with the `tf` format with TF 2.2.0 and Python 3.6.9. See our Dockerfile within our code repo for the full development environment.
+
+## License
+
+Please see the enclosed LICENSE file.
