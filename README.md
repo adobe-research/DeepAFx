@@ -1,4 +1,4 @@
-# DeepAFX: Deep Audio Effects 
+# DeepAFx: Deep Audio Effects 
 
 Audio signal processing effects (FX) are used to manipulate sound characteristics across a variety of media. Many FX, however, can be difficult or tedious to use, particularly for novice users. In our work, we aim to simplify how audio FX are used by training a machine to use FX directly and perform automatic audio production tasks. By using familiar and existing tools for processing and suggesting control parameters, we can create a unique paradigm that blends the power of AI with human creative control to empower creators. For a quick demonstration, please see our demo video:
 
