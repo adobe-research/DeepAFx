@@ -14,9 +14,6 @@ To combine deep learning and audio plugins together, we have developed a new met
 [Marco A. Martínez Ramírez](https://m-marco.com/about/), [Oliver Wang](http://www.oliverwang.info/), [Paris Smaragdis](https://paris.cs.illinois.edu/), and [Nicholas J. Bryan](https://ccrma.stanford.edu/~njb/). 
 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2021.
 
-* Project Cite: [https://mchijmma.github.io/DeepAFx](https://mchijmma.github.io/DeepAFx)
-* ArXiv Paper: [https://arxiv.org/abs/2105.04752](https://arxiv.org/abs/2105.04752)
-
 >@inproceedings{martinez2021deepafx,<br />
 >   title={Differentiable Signal Processing with Black-Box Audio Effects},<br />
 >   author={Mart\'{i}nez Ram\'{i}rez, Marco A. and Wang, Oliver and Smaragdis, Paris and Bryan, Nicholas J.},<br />
@@ -25,6 +22,9 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 >   year={2021},<br />
 >   publisher={IEEE}<br />
 >}<br />
+
+* Main Project Page: [https://mchijmma.github.io/DeepAFx](https://mchijmma.github.io/DeepAFx)
+* ArXiv Paper: [https://arxiv.org/abs/2105.04752](https://arxiv.org/abs/2105.04752)
 
 <!--To update TOC: doctoc --maxlevel 2 README.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
