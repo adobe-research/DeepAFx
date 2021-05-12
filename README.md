@@ -7,8 +7,10 @@ Audio signal processing effects (FX) are used to manipulate sound characteristic
 <!--Our goal is to make the process of audio effects control easier and more powerful for audio content creators. To address this, we are investigating how to use deep neural networks/AI to control audio plugins (e.g. VST, AU, LV2 effects) or black-box audio effects, which themselves are used to perform audio processing. By using familiar and existing tools for processing and suggesting control parameters, we can create a unique paradigm that blends the power of AI with human creative control to empower creators.-->
 
 
-To combine deep learning and audio plugins together, we have developed a new method to incorporate third-party, audio signal processing effects (FX) plugins as layers within deep neural networks. We then use a deep encoder to analyze sounds and learn to control audio FX that themselves performs signal manipulation. To train our network with non-differentiable FX layers, we compute FX layer gradients via a fast, parallel stochastic approximation scheme within a standard automatic differentiation graph, enabling efficient end-to-end backpropagation for deep learning training. For technical details of the work, please see:
+To combine deep learning and audio plugins together, we have developed a new method to incorporate third-party, audio signal processing effects (FX) plugins as layers within deep neural networks. We then use a deep encoder to analyze sounds and learn to control audio FX that themselves performs signal manipulation. To train our network with non-differentiable FX layers, we compute FX layer gradients via a fast, parallel stochastic approximation scheme within a standard automatic differentiation graph, enabling efficient end-to-end backpropagation for deep learning training. 
 
+# Paper 
+For technical details of the work, please see:
 
 "[Differentiable Signal Processing with Black-Box Audio Effects.](https://arxiv.org/abs/2105.04752)"
 [Marco A. Martínez Ramírez](https://m-marco.com/about/), [Oliver Wang](http://www.oliverwang.info/), [Paris Smaragdis](https://paris.cs.illinois.edu/), and [Nicholas J. Bryan](https://ccrma.stanford.edu/~njb/). 
